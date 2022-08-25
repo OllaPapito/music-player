@@ -1,0 +1,172 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.border {
+    border-radius: 10px;
+    margin: 30px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.descricao {
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.duracao {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.barra {
+    width: 300px;
+    height: 4.5px;
+    border: 2px solid rgb(61, 71, 185);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress {
+    height: 4.5px;
+    width: 0%;
+    background-color: rgb(81, 79, 79);
+}
+
+.ponto {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(61, 71, 185);
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.tempo {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.player {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.botoes {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.botaoSom {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.botao-play, .botao-pause {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.botao-pause {
+    display: none;
+    cursor: pointer;
+}
+
+.setas {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.mute {
+    display: none;
+    cursor: pointer
+}
+
+.sound, .menos, .mais {
+    cursor: pointer;
+}
+
+/*soundbar*/
+
+.audio--container{
+    width:150px;
+    height:20px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+  }
+
+  
+  .audio--container:hover{
+    cursor:pointer;
+  }
+  
+  .audio--container div{
+    height: 20px;
+    width:5px;
+    background: white;
+    transition:transform 250ms ease;
+    background: 200ms ease;
+  }
+  
+  .audiobar{
+    transform:scaleY(0.5);
+    transform-origin:center;
+  }
+
+
+  /*volume*/
+
+.barraVolume {
+    width: 300px;
+    height: 4.5px;
+    border: 2px solid rgb(61, 71, 185);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.pontoVolume {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(61, 71, 185);
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
